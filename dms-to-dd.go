@@ -15,7 +15,7 @@ type dms struct {
 //Pass degrees, minutes, seconds.
 //Examples:
 //NewDMS("44/1","44/1","39/1")
-//NewDMS("47/1","23/1","110751/10000")
+//NewDMS("47/1","23/1","110762/10000")
 func NewDMS(d, m, s string) *dms {
 	return &dms{
 		Degrees: d,
