@@ -15,11 +15,12 @@ dms := dmstodd.NewDMS('44/1','44/1','39/1')
 Convert coordinates from DMS to DD:
 
 ```
-ddLongitude, err := dmsLongitude.ConverterDMSToDD()
+dd, err := dmsLongitude.ConverterDMSToDD()
 if err != nil {
     log.println(err)
     return
 }
+log.println('dd:', dd) // 44.744166666666665
 ```
 
 ## Authors and acknowledgment
