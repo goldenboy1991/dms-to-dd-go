@@ -1,6 +1,6 @@
 # dms-to-dd-go
 
-Сonverts the DMS format to DD.
+Сonverts the DMS(degrees,minutes,seconds) format to DD(decimal degrees).
 
 ## Getting started
 
